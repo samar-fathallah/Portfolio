@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Samar Fathalah — Software Engineer</title>
+<title>Samar Fathalah — Software & Machine Learning Engineer</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -225,14 +225,14 @@
   <div class="wrap">
     <span class="pill-loc">Leinfelden-Echterdingen, Germany</span>
     <h1>Samar<br>Fathalah<span class="dot">.</span><span class="sq"></span></h1>
-    <p class="subtitle">Software Engineer · Full-Stack Developer · MSc Information Technology</p>
+    <p class="subtitle">Software Engineer · Machine Learning & Computer Vision · MSc Information Technology, University of Stuttgart</p>
     <div class="hero-tags">
-      <span class="htag">JavaScript</span>
       <span class="htag">Python</span>
-      <span class="htag">Java</span>
-      <span class="htag">SQL</span>
-      <span class="htag">Node.js</span>
-      <span class="htag">AWS</span>
+      <span class="htag">JavaScript / TypeScript</span>
+      <span class="htag">React & Node.js</span>
+      <span class="htag">PyTorch</span>
+      <span class="htag">AWS & Docker</span>
+      <span class="htag">FastAPI</span>
     </div>
     <div class="hero-actions">
       <a class="btn btn-solid" href="#experience">View Experience</a>
@@ -247,15 +247,15 @@
     <h2 class="section-title">About me</h2>
     <div class="about-grid" style="margin-top:50px;">
      <div class="about-text">
-        <p>I'm a computer engineering graduate with a Master's in Information Technology from the University of Stuttgart, specializing in software and hardware engineering.</p>
-        <p>I have over two years of experience in JavaScript and SQL, with strong proficiency in Java, Python, and machine learning — building RESTful APIs, data-visualization dashboards, and cloud integrations on AWS.</p>
-        <p>I'm committed to using technology to address complex challenges and foster innovation in tech.</p>
+        <p>I'm a computer engineering graduate with an M.Sc. in Information Technology from the University of Stuttgart, working across two connected areas: full-stack engineering and machine learning and computer vision.</p>
+        <p>On the engineering side, I've spent two and a half years shipping production systems, merchant-facing features serving 250+ merchants and AWS-backed workflows handling 700+ daily orders at an e-commerce startup, plus containerized REST services and internal data platforms at Valeo.</p>
+        <p>On the research side, I build PyTorch pipelines end to end — from data curation and augmentation through training, fine-tuning, and evaluation. My Master's thesis used diffusion-based augmentation to improve safety in autonomous driving models, cutting collision rate by 39% across open-loop and closed-loop evaluation.</p>
       </div>
       <div class="stats">
-        <div class="stat"><div class="big">3+</div><div class="lab">Years Experience</div></div>
-        <div class="stat"><div class="big">6</div><div class="lab">Programming Languages</div></div>
-        <div class="stat"><div class="big">MSc</div><div class="lab">INFOTECH · Stuttgart</div></div>
-        <div class="stat"><div class="big">C2</div><div class="lab">English Proficiency</div></div>
+        <div class="stat"><div class="big">2.5+</div><div class="lab">Years Production Experience</div></div>
+        <div class="stat"><div class="big">39%</div><div class="lab">Thesis Collision Rate Reduction</div></div>
+        <div class="stat"><div class="big">MSc</div><div class="lab">Information Technology · Stuttgart</div></div>
+        <div class="stat"><div class="big">700+</div><div class="lab">Orders/Day at Production Scale</div></div>
       </div>
     </div>
   </div>
@@ -270,14 +270,27 @@
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-meta">
-          <span class="tl-date">Jan 2025 — Mar 2026</span>
+          <span class="tl-date">Sep 2025 — Mar 2026</span>
+          <span class="tl-org">University of Stuttgart · Germany</span>
+        </div>
+        <h3 class="tl-role">Research Assistant — Master's Thesis</h3>
+        <ul class="tl-list">
+          <li>Developed a diffusion-based data augmentation pipeline in PyTorch to synthesize collision and near-collision scenarios from the nuScenes dataset by injecting adversarial vehicles, generating safety-critical cases underrepresented in real-world driving data.</li>
+          <li>Fine-tuned planning-oriented end-to-end autonomous driving models on the augmented dataset, targeting improved decision-making in safety-critical scenarios.</li>
+          <li>Evaluated performance through both open-loop and closed-loop frameworks, reducing collision rate by 39%. Work led to a co-authored paper currently under review at a top-tier international conference on robot learning.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-meta">
+          <span class="tl-date">Jan 2025 — Jun 2026</span>
           <span class="tl-org">Valeo Schalter und Sensoren · Bietigheim-Bissingen, Germany</span>
         </div>
         <h3 class="tl-role">Working Student — Software Engineering</h3>
         <ul class="tl-list">
-          <li>Developed RESTful APIs using FastAPI and Flask to streamline communication between MySQL databases and end users, abstracting complex query logic into intuitive endpoints while supporting database schema design and best practices.</li>
-          <li>Designed and implemented user/client dashboards for data visualization and analysis, enabling efficient monitoring of test-track records and sensor data from radar, LiDAR, and camera systems.</li>
-          <li>Supported hardware integration activities — driver installation, camera software upgrades, and system configuration — ensuring reliable functionality across connected components.</li>
+          <li>Built and containerized Flask and FastAPI REST services with Docker, delivering autonomous-driving test data sensor recordings, calibration data, and vehicle metadata — from MySQL to internal engineering teams.</li>
+          <li>Developed Grafana dashboards for radar, LiDAR, and camera sensor data from autonomous-driving test environments, enabling engineers to triage test runs without manual log inspection.</li>
+          <li>Automated sensor-system integration through driver installation, system configuration, and Python/C-based tooling, cutting environment setup from 4 hours to 20 minutes.</li>
         </ul>
       </div>
 
@@ -286,12 +299,12 @@
           <span class="tl-date">Jan 2023 — Sep 2024</span>
           <span class="tl-org">Khazenly · Cairo, Egypt</span>
         </div>
-        <h3 class="tl-role">Full-Stack Salesforce Developer</h3>
+        <h3 class="tl-role">Full-Stack Developer</h3>
         <ul class="tl-list">
-          <li>Helped building online self-service platform for merchants on e-commerce platforms such as Shopify, enabling automated order-fulfillment workflows and reducing manual operational effort.</li>
-          <li>Implemented seamless integrations between merchant storefronts, third-party delivery channels, and tracking systems to stream orders, automate fulfillment updates, and provide real-time tracking via mobile channels.</li>
-          <li>Enhanced platform scalability and reliability by leveraging AWS cloud services for automated end-to-end communication between merchants, clients, and delivery partners.</li>
-          <li>Optimized user experience by designing intuitive merchant-facing workflows for order management, fulfillment tracking, and customer communication.</li>
+          <li>Built merchant-facing features for a self-service fulfillment platform serving 250+ merchants, enabling automated order fulfillment, real-time tracking, and self-service workflow configuration without operations-team involvement.</li>
+          <li>Integrated 60 e-commerce storefronts (Shopify and others) with third-party delivery and tracking APIs in JavaScript, enabling end-to-end order streaming across the fulfillment chain.</li>
+          <li>Scaled automated fulfillment workflows on AWS (Lambda, S3, SQS) to handle 700+ orders/day, improving delivery reliability across merchants, customers, and logistics partners.</li>
+          <li>Shipped a complex custom-bundling feature within 40 days of joining, modeling a single order as one product to the customer, separate SKUs to inventory, and one package to fulfillment, earning Star of the Month.</li>
         </ul>
       </div>
 
@@ -302,8 +315,7 @@
         </div>
         <h3 class="tl-role">Teaching Assistant</h3>
         <ul class="tl-list">
-          <li>Taught "Introduction to Media Engineering" for third-year Media Engineering &amp; Technology students.</li>
-          <li>Created course content, technical projects, and assessment materials aligned with course objectives and evaluation criteria.</li>
+          <li>Designed course content, technical projects, and assessment materials for "Introduction to Media Engineering," a required course for third-year Media Engineering &amp; Technology students.</li>
         </ul>
       </div>
     </div>
@@ -317,38 +329,43 @@
 
     <div class="proj-grid">
       <div class="proj-card">
-  <h3>Semantic-Guided GAN for Adverse-Weather Synthesis</h3>
-  <p>Research project generating adverse-weather driving scenes from clear-weather images. It extends the DP-GAN framework with a dual-SPADE fusion mechanism inside a three-pyramid generator, guided by semantic segmentation maps, and uses the synthesized images as data augmentation for a segmentation model. The approach outperformed all baselines, achieving the lowest FID score (98.01) with the strongest perceptual quality and semantic alignment.</p>
-  <div class="chips">
-    <span class="chip">GANs</span><span class="chip">Semantic Segmentation</span><span class="chip">SPADE</span><span class="chip">Data Augmentation</span>
-  </div>
-</div>
-
-<div class="proj-card">
-  <h3>Adversarial Data Augmentation for Collision-Aware Driving</h3>
-  <p>Master's thesis addressing the brittleness of end-to-end driving models in safety-critical scenarios. A failure analysis showed that 95.9% of collisions were planning failures rather than perception errors, so we built a pipeline that synthesizes targeted adversarial BEV scenes — rendered to photorealistic six-camera video. With just 100 generated scenes (over 1,000 fewer than simulation-based baselines), it cut the collision rate from 37.5% to 32.1% on DiffusionDrive and from 28.0% to 16.8% on SparseDrive, while preserving in-distribution performance.</p>
-  <div class="chips">
-    <span class="chip">Autonomous Driving</span><span class="chip">Generative AI</span><span class="chip">Machine Learning</span><span class="chip">Diffusion Models</span><span class="chip">Closed-Loop Evaluation</span><span class="chip">BEV feature extraction</span>
-  </div>
-</div>
-
-      <div class="proj-card">
-        <h3>LogiSolve — Mobile App</h3>
-        
-        <p>Developed LogiSolve, a cross-platform logical-riddle quiz app for learning propositional logic, built with Flutter and a Go (Golang) backend with MongoDB, featuring user authentication, progress tracking, leaderboards, offline support, and an admin portal for managing tasks and users.</p>
+        <h3>Master's Thesis — Adversarial Data Augmentation for Autonomous Driving</h3>
+        <p>Master's thesis addressing the failure of end-to-end driving models in safety-critical scenarios — cases where real-world training data cannot be collected. Built a diffusion-based augmentation pipeline in PyTorch that synthesized collision and near-collision scenarios from the nuScenes dataset by injecting adversarial vehicles, then fine-tuned planning-oriented driving models on the augmented data. Reduced collision rate by 39% across both open-loop and closed-loop evaluation frameworks. Co-authored paper under review at a top-tier international conference on robot learning.</p>
         <div class="chips">
-          <span class="chip">Flutter</span><span class="chip">Go</span><span class="chip">MongoDB</span><span class="chip">Dart</span>
+          <span class="chip">PyTorch</span><span class="chip">Diffusion Models</span><span class="chip">Autonomous Driving</span><span class="chip">nuScenes</span><span class="chip">Data Augmentation</span><span class="chip">Closed-Loop Evaluation</span>
         </div>
       </div>
 
       <div class="proj-card">
-  <h3>Automatic Music Transcription</h3>
-  <p>A comparative study of deep-learning approaches for converting musical notes into sheet music, benchmarking a Deep Neural Network (DNN), a Long Short-Term Memory (LSTM) network, and a Convolutional Neural Network (CNN). The CNN was the best performer at 75% average precision and was deployed as the backend of a web platform where users upload notes and download the corresponding sheet music.</p>
-  <div class="chips">
-    <span class="chip">Deep Learning</span><span class="chip">CNN</span><span class="chip">LSTM</span><span class="chip">Python</span>
-  </div>
-</div>
+        <h3>Semantic-Guided GAN for Adverse-Weather Synthesis</h3>
+        <p>Master's research project extending a DP-GAN framework for semantic image synthesis under adverse weather conditions. Introduced a novel fusion strategy, dual SPADE normalization with a learnable fusion mechanism embedded within a three-pyramid generator architecture that integrates clear-weather features with semantic segmentation maps. Validated the synthesized images as augmentation for a downstream segmentation model, achieving the best FID score of 98.01 among all tested baselines.</p>
+        <div class="chips">
+          <span class="chip">PyTorch</span><span class="chip">GANs</span><span class="chip">Semantic Segmentation</span><span class="chip">SPADE Normalization</span><span class="chip">Computer Vision</span>
+        </div>
+      </div>
 
+      <div class="proj-card">
+        <h3>GUC Administration Staff Portal</h3>
+        <p>Full-stack MERN application used by 50+ academic staff to manage course scheduling, room allocation, leave requests, and attendance, replacing a manual process built on spreadsheets and email. Led a team of 5 through Agile/Scrum. Designed and implemented the REST API and backend end-to-end, with role-based access control for course coordinators and teaching assistants and a notification system triggered on state changes.</p>
+        <div class="chips">
+          <span class="chip">MongoDB</span><span class="chip">Express.js</span><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">REST APIs</span><span class="chip">Role-Based Access Control</span><span class="chip">Agile / Scrum</span>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <h3>LogiSolve — Mobile App</h3>
+        <p>Cross-platform mobile quiz app for learning propositional logic, built with Flutter and a Go backend with MongoDB. Features user authentication, progress tracking, leaderboards, offline-first architecture where the client stays useful without the backend, and an admin portal for managing tasks and users.</p>
+        <div class="chips">
+          <span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">Go</span><span class="chip">MongoDB</span><span class="chip">Offline-First</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <h3>Automatic Music Transcription — Bachelor Thesis</h3>
+        <p>End-to-end system converting audio recordings of musical notes into readable sheet music, combining signal processing and preprocessing with deep learning. Designed the audio preprocessing stage using Fourier transforms, feeding representations into deep learning models for note recognition. Compared DNN, CNN, and LSTM architectures; the CNN achieved the best performance at 75% average precision. Deployed as a web platform where users upload audio and download the corresponding sheet music.</p>
+        <div class="chips">
+          <span class="chip">Deep Learning</span><span class="chip">CNN</span><span class="chip">LSTM</span><span class="chip">Signal Processing</span><span class="chip">Fourier Transform</span><span class="chip">Python</span>
+        </div>
+      </div>
       <div class="proj-card">
         <h3>Blockchain for EHR</h3>
         <p>A blockchain solution for the secure management of Electronic Healthcare Records, built in Java.</p>
@@ -357,13 +374,6 @@
         </div>
       </div>
 
-      <div class="proj-card">
-        <h3>GUC Administration Staff Portal</h3>
-        <p>RESTful web app for academic staff teaching operations and coordination, delivered with an Agile SCRUM workflow including API design and backlog management.</p>
-        <div class="chips">
-          <span class="chip">MongoDB</span><span class="chip">Express.js</span><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">REST APIs</span><span class="chip">Agile</span><span class="chip">Scrum</span>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -376,56 +386,74 @@
 
     <div class="skills-grid">
       <div class="skill-card">
-        <div class="skill-cat">Languages</div>
+        <div class="skill-cat">Programming Languages</div>
         <div class="chips">
-          <span class="chip">Python</span><span class="chip">Java</span><span class="chip">JavaScript</span>
-          <span class="chip">C / C++</span><span class="chip">C#</span><span class="chip">Go</span>
+          <span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span>
+          <span class="chip">Java</span><span class="chip">C / C++</span><span class="chip">GO</span>
         </div>
       </div>
+
       <div class="skill-card">
-        <div class="skill-cat">Full-Stack Development</div>
+        <div class="skill-cat">Frontend</div>
         <div class="chips">
-          <span class="chip">HTML</span><span class="chip">CSS</span>
-          <span class="chip">Node.js</span><span class="chip">Express.js</span>
+          <span class="chip">React.js</span><span class="chip">HTML5</span><span class="chip">CSS3</span>
+          <span class="chip">Responsive Design</span>
         </div>
       </div>
+
       <div class="skill-card">
-        <div class="skill-cat">Data Engineering &amp; APIs</div>
+        <div class="skill-cat">Backend & APIs</div>
         <div class="chips">
-          <span class="chip">SQL</span><span class="chip">MongoDB</span><span class="chip">Pandas</span>
-          <span class="chip">NumPy</span><span class="chip">SOQL</span><span class="chip">Flask</span>
-          <span class="chip">FastAPI</span><span class="chip">WebSockets</span>
+          <span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">FastAPI</span>
+          <span class="chip">Flask</span><span class="chip">REST APIs</span><span class="chip">WebSockets</span>
         </div>
       </div>
+
       <div class="skill-card">
-        <div class="skill-cat">Cloud &amp; DevOps</div>
+        <div class="skill-cat">Databases</div>
         <div class="chips">
-          <span class="chip">AWS S3</span><span class="chip">AWS Lambda</span><span class="chip">Docker</span>
+          <span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span>
         </div>
       </div>
+
       <div class="skill-card">
-        <div class="skill-cat">Machine Learning</div>
+        <div class="skill-cat">Cloud & DevOps</div>
         <div class="chips">
-          <span class="chip">TensorFlow</span><span class="chip">PyTorch</span><span class="chip">OpenCV</span><span class="chip">Pandas</span><span class="chip">Numpy</span>
+          <span class="chip">AWS Lambda</span><span class="chip">AWS S3</span><span class="chip">AWS SQS</span>
+          <span class="chip">AWS EC2</span><span class="chip">Docker</span><span class="chip">CI / CD</span>
         </div>
       </div>
+
       <div class="skill-card">
-        <div class="skill-cat">Software Architecture</div>
+        <div class="skill-cat">Machine Learning & CV</div>
         <div class="chips">
-          <span class="chip">Design Patterns</span><span class="chip">System Design</span><span class="chip">ANTLR</span> 
+          <span class="chip">PyTorch</span><span class="chip">Semantic Segmentation</span>
+          <span class="chip">CNNs</span><span class="chip">Transformers</span>
+          <span class="chip">GANs</span><span class="chip">Diffusion Models</span>
+          <span class="chip">Model Fine-Tuning</span><span class="chip">Data Augmentation</span>
         </div>
       </div>
+
       <div class="skill-card">
-        <div class="skill-cat">Version Control &amp; CI/CD</div>
+        <div class="skill-cat">Frameworks & Libraries</div>
+        <div class="chips">
+          <span class="chip">OpenCV</span><span class="chip">NumPy</span><span class="chip">Pandas</span>
+          <span class="chip">scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-cat">Version Control & Methodologies</div>
         <div class="chips">
           <span class="chip">Git</span><span class="chip">GitHub</span>
           <span class="chip">Agile</span><span class="chip">Scrum</span>
         </div>
       </div>
+
       <div class="skill-card">
         <div class="skill-cat">Spoken Languages</div>
         <div class="chips">
-          <span class="chip">English — C2</span><span class="chip">German — A2</span>
+          <span class="chip">English — C2</span><span class="chip">German — A2</span><span class="chip">Arabic — Native</span>
         </div>
       </div>
     </div>
@@ -437,7 +465,7 @@
   <div class="wrap">
     <p class="eyebrow">Let's Connect</p>
     <h2 class="section-title">Get in Touch</h2>
-    <p class="contact-sub">Open to software engineering and full-stack opportunities, and interesting technical challenges. Reach out anytime.</p>
+    <p class="contact-sub">Open to software engineering, full-stack, and machine learning opportunities. Reach out anytime.</p>
 
     <div class="contact-grid">
       <a class="contact-card" href="mailto:samoshokry@gmail.com">
@@ -453,7 +481,6 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L20 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
         +49 163 918 7779
       </a>
-      <!-- EDIT: paste your real GitHub URL below (it wasn't in the CV text) -->
       <a class="contact-card" href="https://github.com/samar-fathallah" target="_blank" rel="noopener">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3-.3 6-1.5 6-6.6a5.1 5.1 0 0 0-1.4-3.5 4.8 4.8 0 0 0-.1-3.5s-1.1-.3-3.5 1.3a12 12 0 0 0-6 0C6 .8 4.9 1.1 4.9 1.1a4.8 4.8 0 0 0-.1 3.5A5.1 5.1 0 0 0 3.4 8c0 5 3 6.3 6 6.6a3.4 3.4 0 0 0-1 2.6V21"/></svg>
         GitHub
